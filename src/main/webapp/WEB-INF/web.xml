@@ -1,0 +1,20 @@
+
+<web-app>
+	<display-name>My 3rd Spring webApp</display-name>
+
+	<servlet>
+		<servlet-name>mvc3rdwebapp</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet
+		</servlet-class>
+
+	</servlet>
+	
+	<servlet-mapping>
+	
+	<servlet-name>mvc3rdwebapp</servlet-name>
+	<url-pattern>/</url-pattern>
+	
+	</servlet-mapping>
+
+
+</web-app>
